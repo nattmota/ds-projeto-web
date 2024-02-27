@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#img-to-do {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;    
+    margin-bottom: 100px;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 6px;
+    background-color: white;
+}
+
+.botao1 {
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: blue;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.1);
+}
+
+#container-laranja {
+    background-color: #FFD580;
+    width: 650px;
+    height: 500px;
+}
+
+#container-roxo {
+    background-color: #D6B4FC;
+    width: 650px;
+    height: 500px;
+}
+
+#container-button {
+    display: flex;
+    justify-content: center;
+    gap: 290px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#container-tarefas {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 70px;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.input-1[type="text"] {
+    width: 95%;
+    padding: 8px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.input-2[type="text"] {
+    width: 95%;
+    height: 150px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+p {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+#centralizar-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+}

@@ -1,0 +1,53 @@
+#style-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.center-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao2 {
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: blue;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 420px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#linha-cinza {
+    width: 600px;
+    height: 10px;
+    background-color: gray;
+    border: 1px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+#a-cadastro {
+    font-size: 30px;
+}
