@@ -45,9 +45,10 @@ h2 {
 
 span {
     font-size: 25px;
-    margin-left: 10px;
 }
 
 #a-cadastro {
     font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 15px;
 }
